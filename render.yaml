@@ -7,4 +7,4 @@ services:
     startCommand: gunicorn server.app:app
     envVars:
       - key: BITPANDA_API_KEY
-        value: dein_api_key_hier
+        value: f98a84ae919062bbdec7295f6d6da9d384ea48d9044763c42ab65eb235bb6dfafd551c38c1f90b5debeef56b7ee85ec45543dbf6945dd43d54420e0262782a8f
