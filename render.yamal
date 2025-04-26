@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hugotms-trader
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server.app:app
+    envVars:
+      - key: BITPANDA_API_KEY
+        value: dein_api_key_hier
